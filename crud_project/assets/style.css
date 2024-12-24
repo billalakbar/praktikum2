@@ -1,0 +1,260 @@
+* Mengatur gaya keseluruhan halaman */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #00796b; /* Warna latar belakang biru muda */
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+}
+/* Mengubah warna teks di dalam tabel menjadi hitam */
+table tbody td {
+    color: #000000; /* Warna hitam */
+}
+
+
+
+  /* Tambahkan gaya CSS di sini */
+  .welcome-heading {
+    font-size: 3em;
+    font-weight: bold;
+    text-align: center;
+    margin: 20px 0;
+    background: linear-gradient(90deg, #00C9FF, #92FE9D);
+    color: transparent;
+    -webkit-background-clip: text;
+    background-clip: text;
+    text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.3);
+}
+
+/* Mengatur gaya kontainer utama */
+.container {
+    width: 90%;
+    max-width: 800px;
+       background: linear-gradient(135deg, #1E90FF, #8A2BE2); /* Gradasi abu-abu ke hitam */
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    color: white; /* Mengubah warna teks agar lebih terlihat di atas gradasi */
+}
+
+/* Mengatur gaya judul */
+h2 {
+    text-align: center;
+    color: #333;
+    font-size: 24px;
+    margin-top: 0;
+}
+
+/* Mengatur tombol utama */
+.btn {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #28a745; /* Warna hijau untuk tombol utama */
+    color: white;
+    text-decoration: none;
+    margin-bottom: 20px;
+    border-radius: 5px;
+    transition: background-color 0.3s ease;
+}
+
+.btn:hover {
+    background-color: #218838; /* Hijau lebih gelap saat dihover */
+}
+
+/* Mengatur tabel */
+table {
+    width: 100%;
+    margin: 0 auto;
+    border-collapse: collapse;
+    background-color: #f9f9f9;
+    border-radius: 8px;
+    overflow: hidden;
+}
+
+/* Mengatur header tabel */
+th {
+    background-color: #00796b; /* Warna hijau tua untuk header tabel */
+    color: #ffffff;
+    padding: 12px;
+    text-align: center;
+    font-weight: normal;
+}
+
+/* Mengatur baris dan kolom tabel */
+td {
+    padding: 12px;
+    border-bottom: 1px solid #ddd;
+    text-align: center;
+}
+
+/* Warna latar belakang baris ganjil */
+tr:nth-child(odd) {
+    background-color: #e0f2f1;
+}
+
+/* Mengatur tombol Edit */
+.btn-edit {
+    background-color: #ffa500; /* Warna oranye untuk tombol Edit */
+    color: white;
+    padding: 5px 10px;
+    text-decoration: none;
+    border-radius: 4px;
+    transition: background-color 0.3s ease;
+}
+
+.btn-edit:hover {
+    background-color: #e69500; /* Oranye lebih gelap saat dihover */
+}
+
+/* Mengatur tombol Hapus */
+.btn-delete {
+    background-color: #f44336; /* Warna merah untuk tombol Hapus */
+    color: white;
+    padding: 5px 10px;
+    text-decoration: none;
+    border-radius: 4px;
+    transition: background-color 0.3s ease;
+    margin-left: 5px;
+}
+
+.btn-delete:hover {
+    background-color: #d32f2f; /* Merah lebih gelap saat dihover */
+}
+
+/* Responsive untuk layar kecil */
+@media (max-width: 600px) {
+    .container {
+        width: 100%;
+        padding: 10px;
+    }
+    .btn, .btn-edit, .btn-delete {
+        padding: 8px 15px;
+        font-size: 14px;
+    }
+    table, th, td {
+        font-size: 14px;
+    }
+}
+
+/* Style untuk Form Update */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #e9ecef;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    margin: 0;
+}
+
+.form-container {
+    background-color: #ffffff;
+    padding: 20px 40px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    width: 100%;
+    max-width: 400px;
+}
+
+h2 {
+    text-align: center;
+    color: #333333;
+    margin-bottom: 20px;
+}
+
+label {
+    display: block;
+    margin: 10px 0 5px;
+    color: #555555;
+}
+
+input[type="text"],
+input[type="email"] {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid #cccccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+
+input[type="text"]:focus,
+input[type="email"]:focus {
+    border-color: #4CAF50;
+    outline: none;
+}
+
+.btn-submit {
+    display: block;
+    width: 100%;
+    padding: 10px;
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.btn-submit:hover {
+    background-color: #45a049;
+}
+
+/* Mengatur background agar lebih menarik */
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #f0f0f0;
+    margin: 0;
+}
+
+/* Mengatur background dan tata letak */
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background: linear-gradient(135deg, #1E90FF, #00FFFF);
+    margin: 0;
+}
+
+/* Gaya untuk teks dengan animasi warna di sekitar */
+.colorful-text {
+    font-size: 3rem;
+    font-weight: bold;
+    text-align: center;
+    position: relative;
+    display: inline-block;
+    color: black;
+    animation: colorRotate 3s linear infinite;
+    -webkit-background-clip: text;
+    background-clip: text;
+    padding: 10px;
+}
+
+/* Animasi untuk warna bergerak mengelilingi teks */
+@keyframes colorRotate {
+    0% {
+        text-shadow: 0 0 5px red, 0 0 10px orange, 0 0 15px yellow, 0 0 20px green, 0 0 25px cyan, 0 0 30px blue, 0 0 35px purple;
+    }
+    25% {
+        text-shadow: 0 0 5px orange, 0 0 10px yellow, 0 0 15px green, 0 0 20px cyan, 0 0 25px blue, 0 0 30px purple, 0 0 35px red;
+    }
+    50% {
+        text-shadow: 0 0 5px yellow, 0 0 10px green, 0 0 15px cyan, 0 0 20px blue, 0 0 25px purple, 0 0 30px red, 0 0 35px orange;
+    }
+    75% {
+        text-shadow: 0 0 5px green, 0 0 10px cyan, 0 0 15px blue, 0 0 20px purple, 0 0 25px red, 0 0 30px orange, 0 0 35px yellow;
+    }
+    100% {
+        text-shadow: 0 0 5px cyan, 0 0 10px blue, 0 0 15px purple, 0 0 20px red, 0 0 25px orange, 0 0 30px yellow, 0 0 35px green;
+    }
+}
+
+
